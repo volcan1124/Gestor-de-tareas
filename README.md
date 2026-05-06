@@ -20,7 +20,8 @@ AdminSQLiteOpenHelper.java → Manejo de base de datos
 activity_main.xml → Interfaz gráfica
 📸 Capturas de pantalla
 
-<img width="720" height="1600" alt="momenti 1" src="https://github.com/user-attachments/assets/82bc6437-78b2-42c7-830f-acd082ed2dd5" />
+<img width="307" height="655" alt="image" src="https://github.com/user-attachments/assets/2bd95263-e762-48d7-bfa6-20edf8162255" />
+
 
 <img width="308" height="666" alt="image" src="https://github.com/user-attachments/assets/13933246-13e1-4b4e-8f36-2d2c00daed32" />
 
