@@ -2,8 +2,13 @@
 
 Aplicación móvil desarrollada en Android que permite gestionar tareas de manera sencilla: crear, editar, eliminar y visualizar tareas.
 
+
+
 🚀 Funcionalidades
+
+
 ✅ Crear tareas
+
 ✏️ Editar tareas
 ❌ Eliminar tareas
 📋 Ver lista de tareas
