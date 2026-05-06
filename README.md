@@ -25,12 +25,6 @@ activity_main.xml → Interfaz gráfica
 
 <img width="308" height="666" alt="image" src="https://github.com/user-attachments/assets/13933246-13e1-4b4e-8f36-2d2c00daed32" />
 
-⚙️ Instalación
 
-Clona este repositorio:
-
-git clone https://github.com/tu-usuario/gestor-de-tareas.git
-Ábrelo en Android Studio
-Ejecuta la aplicación en un emulador o dispositivo físico
 👨‍💻 Autor
-Sebastián
+Johan Sebastián Mendez Rojas
