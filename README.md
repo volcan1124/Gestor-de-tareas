@@ -1,41 +1,110 @@
-📱 Gestor de Tareas (To-Do List)
+# 📋 Gestor de Tareas (To-Do List)
 
-Aplicación móvil desarrollada en Android que permite gestionar tareas de manera sencilla: crear, editar, eliminar y visualizar tareas.
+Aplicación móvil desarrollada en Android Studio que permite gestionar tareas de manera sencilla utilizando **Firebase Firestore** como base de datos NoSQL en tiempo real.
 
-
-
-🚀 Funcionalidades
-
+## 🚀 Funcionalidades
 
 ✅ Crear tareas
+
+🔍 Buscar tareas por ID
 
 ✏️ Editar tareas
 
 ❌ Eliminar tareas
 
-📋 Ver lista de tareas
+📋 Visualizar lista de tareas en tiempo real
 
-🔍 Buscar tareas
+✅ Filtrar tareas completadas
 
-🛠️ Tecnologías utilizadas
+🔄 Sincronización automática entre dispositivos mediante Firestore SnapshotListener
 
-Java
+✔️ Validación de formularios con Material Design
 
-Android Studio
+---
 
-SQLite (base de datos local)
+## 🛠 Tecnologías utilizadas
 
-📂 Estructura del proyecto
+- Java
+- Android Studio
+- Firebase Firestore (Base de datos NoSQL)
+- Material Design Components
+- RecyclerView
+- CardView
+- GridLayoutManager
 
-MainActivity.java → Lógica principal
+---
 
-Tarea.java → Modelo de datos
+## 📂 Estructura del proyecto
 
-TareaAdapter.java → Adaptador para la lista
+**MainActivity.java**
+- Lógica principal de la aplicación
+- CRUD con Firebase
+- Validaciones
+- Sincronización en tiempo real
+- Manejo del RecyclerView
 
-AdminSQLiteOpenHelper.java → Manejo de base de datos
+**Tarea.java**
+- Modelo de datos (POJO)
 
-activity_main.xml → Interfaz gráfica
+**TareaAdapter.java**
+- Adaptador del RecyclerView
+- Visualización de las tarjetas de tareas
+
+**AdminSQLiteOpenHelper.java**
+- Base de datos SQLite utilizada en el primer seguimiento del proyecto
+
+**activity_main.xml**
+- Interfaz principal desarrollada con Material Design
+
+**item_tarea.xml**
+- Diseño de cada tarjeta mostrada en el RecyclerView
+
+---
+
+## ☁️ Base de datos
+
+La aplicación utiliza **Firebase Cloud Firestore** para almacenar la información.
+
+Cada documento de la colección **tareas** contiene los siguientes campos:
+
+| Campo | Tipo |
+|---------|---------|
+| id | Integer |
+| titulo | String |
+| descripcion | String |
+| completada | Boolean |
+
+---
+
+## 🔄 Operaciones CRUD
+
+### Crear
+Guarda una nueva tarea en Firestore.
+
+### Leer
+Consulta tareas por ID y muestra automáticamente todos los documentos mediante SnapshotListener.
+
+### Actualizar
+Modifica el título, descripción y estado de una tarea existente.
+
+### Eliminar
+Elimina una tarea utilizando su ID.
+
+---
+
+## 🎨 Características de la interfaz
+
+- Material Design
+- TextInputLayout
+- MaterialButton
+- SwitchMaterial
+- ProgressBar durante operaciones de carga
+- RecyclerView con CardViews
+- Diseño responsive con GridLayoutManager
+
+---
+
+
 
 📸 Capturas de pantalla
 
@@ -44,6 +113,19 @@ activity_main.xml → Interfaz gráfica
 
 
 <img width="308" height="666" alt="image" src="https://github.com/user-attachments/assets/13933246-13e1-4b4e-8f36-2d2c00daed32" />
+
+<img width="367" height="795" alt="image" src="https://github.com/user-attachments/assets/79c821dd-7905-410d-8594-0065046e7b0a" />
+
+<img width="1569" height="607" alt="image" src="https://github.com/user-attachments/assets/2e7dc9b0-f52a-4008-8160-38b1a9cbbc50" />
+
+<img width="1542" height="599" alt="image" src="https://github.com/user-attachments/assets/4412349b-b89a-4de6-b8e2-68b84cdb8a8f" />
+
+
+📱 Autor
+
+Johan Sebastian Mendez Rojas
+
+
 
 
 
