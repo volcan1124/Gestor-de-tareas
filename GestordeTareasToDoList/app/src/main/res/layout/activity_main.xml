@@ -81,7 +81,7 @@
             android:layout_weight="1"
             android:text="Buscar"
             android:layout_marginEnd="4dp"
-            app:backgroundTint="#C2292"
+            app:backgroundTint="#000000"
             />
 
         <Button
@@ -91,7 +91,7 @@
             android:layout_weight="1"
             android:text="Editar"
             android:layout_marginEnd="4dp"
-            app:backgroundTint="#FF980"
+            app:backgroundTint="#000000"
             />
 
         <Button
@@ -101,7 +101,7 @@
             android:layout_weight="1"
             android:text="Borrar"
             android:layout_marginEnd="4dp"
-            app:backgroundTint="#F4433"
+            app:backgroundTint="#000000"
             />
 
     </LinearLayout>
