@@ -121,9 +121,7 @@ Elimina una tarea utilizando su ID.
 <img width="1542" height="599" alt="image" src="https://github.com/user-attachments/assets/4412349b-b89a-4de6-b8e2-68b84cdb8a8f" />
 
 
-📱 Autor
 
-Johan Sebastian Mendez Rojas
 
 
 
