@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Gestor de Tareas (To-Do List)</string>
+
+    <string-array name="prioridades">
+        <item>🔴 Alta</item>
+        <item>🟡 Media</item>
+        <item>🟢 Baja</item>
+    </string-array>
+
+</resources>

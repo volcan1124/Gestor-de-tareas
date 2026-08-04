@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "269969274041",
+    "project_id": "gestor-de-tareas-55c51",
+    "storage_bucket": "gestor-de-tareas-55c51.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269969274041:android:f72160e85b4707c2ed9768",
+        "android_client_info": {
+          "package_name": "com.example.gestordetareasto_dolist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgnDs6zYNhOCLqxR-k3TlWh4Nck1Mvvx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
